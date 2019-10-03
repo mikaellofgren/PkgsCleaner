@@ -2,6 +2,8 @@
 # PkgsCleaner<br>
 Read PKG and PKG recipe files, return uninstall-script for easy export as nopayload pkg or script.<br>
 Use the Open menu to read from a PKG file.<br>
+<br>
+In my testing in returns a script in 10 sec for a big PKGs (like Microsoft Office).
 
 <img src="https://github.com/mikaellofgren/PkgsCleaner/blob/master/images/pkgcleaner_interface.png" width="90%"></img> 
 
