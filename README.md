@@ -1,5 +1,5 @@
+<img src="https://github.com/mikaellofgren/PkgsCleaner/blob/master/images/pkgscleanericon.png" width="50%"></img><br>
 # PkgsCleaner<br>
-<img src="https://github.com/mikaellofgren/PkgsCleaner/blob/master/images/pkgscleanericon.png" width="50%"></img> 
 Read PKG and PKG recipe files, return uninstall-script for easy export as nopayload pkg or script.<br>
 Use the Open menu to read from a PKG file.<br>
 
