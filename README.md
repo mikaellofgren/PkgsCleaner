@@ -1,2 +1,2 @@
 # PkgsCleaner
-Read PKs file, return uninstall-script
+Read PKGs file, return uninstall-script
