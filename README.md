@@ -5,7 +5,7 @@ Use the Open menu to read from a PKG file.<br>
 
 <img src="https://github.com/mikaellofgren/PkgsCleaner/blob/master/images/pkgcleaner_interface.png" width="90%"></img> 
 
-This is my first attempt to do a Swift app...<br>
+This is my first attempt to do a Swift app...Its open source so if anyone want to join, Im happy with that.<br>
 
 ## Todo<br>
 - CLI version (to return a uninstallscript)<br>
