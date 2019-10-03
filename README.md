@@ -12,6 +12,7 @@ over what a PKG install.<br>
 
 Use Help menu - Open temp folder to see the open/expanded PKG included files.<br>
 
+System requirements: 10.13 or newer
 
 <img src="https://github.com/mikaellofgren/PkgsCleaner/blob/master/images/pkgcleaner_interface.png" width="90%"></img> 
 
