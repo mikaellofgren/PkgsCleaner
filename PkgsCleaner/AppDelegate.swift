@@ -503,15 +503,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                 }
                 if globalVariables.Output.contains("Wrote") {
                     
-                    // Create the notification and setup information (depricated should be updated)
-                    let notification = NSUserNotification()
-                    notification.identifier = "se.dicom.pkgscleaner"
-                    notification.title = "Successfully exported to:"
-                    notification.subtitle = "\(path)"
-                    notification.soundName = NSUserNotificationDefaultSoundName
-                    let notificationCenter = NSUserNotificationCenter.default
-                    notificationCenter.deliver(notification)
-                    
                     let warning = NSAlert()
                     warning.addButton(withTitle: "OK")
                     warning.alertStyle = NSAlert.Style.informational
@@ -612,15 +603,6 @@ Before you quit the app, try it manually by copy this command into terminal:
                 
                 // Reset Export as option
                 exportPopup.selectItem(at: 0)
-                
-                // Create the notification and setup information (depricated should be updated)
-                let notification = NSUserNotification()
-                notification.identifier = "se.dicom.pkgscleaner"
-                notification.title = "Succesfully exported to:"
-                notification.subtitle = "\(path)"
-                notification.soundName = NSUserNotificationDefaultSoundName
-                let notificationCenter = NSUserNotificationCenter.default
-                notificationCenter.deliver(notification)
             }
         } else {
             // User clicked on "Cancel"
@@ -629,12 +611,7 @@ Before you quit the app, try it manually by copy this command into terminal:
             return
         }
         // End Save Dialog
-        
-        
-        
-        
-        
-    }
+ }
 
 
     
@@ -712,7 +689,7 @@ Before you quit the app, try it manually by copy this command into terminal:
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
-        
+       
         // List all PKGS
         var pkgsOutput = bash.execute(commandName: "/usr/sbin/pkgutil", arguments: ["--pkgs"])
         
